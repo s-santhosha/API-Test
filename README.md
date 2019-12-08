@@ -1,6 +1,13 @@
-# APITest
-This project is about API test automation using Excel data driven framework along with TestNG and Extent Reporter
+# API Test Automation Framework
+API Test Automation Framework with RestAssured ,TestNG , Datadriven and Extent Reporter
 
-1. Clone the project and add as a maven project
-2. Run the "testng-datadriven.xml" file at "src/main/resources/footprint" and Execute the XML file.
-3. Post test run an HTML Report will be generated using Extent Reporter.
+## How to run the project
+1. Clone or download the project from github repository
+2. Change directory to the project directory
+
+## Executing the tests
+To run the tests , type `mvn test` on the command line
+
+## Test Report 
+The Extent test results will be recorded in the project directory as a `ExtentReport.html` HTML Report 
+
