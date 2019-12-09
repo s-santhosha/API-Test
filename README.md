@@ -11,3 +11,6 @@ To run the tests , type `mvn test` on the command line
 ## Test Report 
 The Extent test results will be recorded in the project directory as a `ExtentReport.html` HTML Report 
 
+## CircleCI Integration
+Any changes to the code shall trigger a job on circleci pipelines and test is executed on docker image.
+
